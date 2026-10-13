@@ -13,7 +13,7 @@ Everything here is quantized, served and tested for that use case, with **vLLM**
 | **12–16 GB** | [NeoHorse-1-9B](https://huggingface.co/JRamirez-UAB/NeoHorse-1-9B-EXL3-16GB-12GB) · [Ornith-1.5-9B](https://huggingface.co/JRamirez-UAB/Ornith-1.5-9B-EXL3-16GB-12GB) | EXL3, 262k context on 16 GB |
 | **24 GB** (RTX 3090) | Qwen3.8-27B · Swift 1.5 27B · Qwopus3.8-27B-Flash-V2 · Qwen3.8-27B-pi | EXL3 3.85/3.70, GPTQ W4A16 (INT4/INT8 embeddings), up to 222k context with MTP |
 | **24 GB**, MoE | Qwen3.6-35B-A3B · Qwopus3.6-35B-A3B-Coder · Ornith-1.5-35B-A3B | EXL3 with our vLLM plugin for MoE experts and vision |
-| **48 GB** (RTX PRO 5000, L40S, A40) | [Swift 1.5 Qwen3.8-Flash-Next (125B MoE)](https://huggingface.co/JRamirez-UAB/Swift-1.5-Qwen3.8-Flash-Next-EXL3-2.25bpw-48GB) | EXL3 2.25 bpw: 4 sessions × 262k, vision, MTP on one 48 GB GPU |
+| **48 GB** (RTX PRO 5000, L40S, A40) | [Swift 1.5 Qwen3.8-Flash-Next](https://huggingface.co/JRamirez-UAB/Swift-1.5-Qwen3.8-Flash-Next-EXL3-2.25bpw-48GB) · [Qwen3.8-Flash-Next](https://huggingface.co/JRamirez-UAB/Qwen3.8-Flash-Next-EXL3-2.25bpw-48GB) (125B MoE) | EXL3 2.25 bpw: 4 sessions × 262k, vision, MTP on one 48 GB GPU |
 | Other | [Clef 27B](https://huggingface.co/JRamirez-UAB/clef-GPTQ-W4A16-g64-embed-int8) (decision model) · [DFlash 2 draft](https://huggingface.co/JRamirez-UAB/Qwen3.8-27B-DFlash2-W4A16) | GPTQ W4A16 |
 
 ## How I test
