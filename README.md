@@ -23,7 +23,7 @@ models quantized, served and tested for that use case, with **vLLM** (continuous
 
 ## Models on Hugging Face
 
-[JRamirez-UAB](https://huggingface.co/JRamirez-UAB): 36 public models, grouped in [collections](https://huggingface.co/JRamirez-UAB/collections) by GPU memory. EXL3 unless stated.
+[JRamirez-UAB](https://huggingface.co/JRamirez-UAB): Linux sysadmin at UAB (DCC). Quantizing and testing local LLMs for a Spanish-language sysadmin agent (opencode + vLLM). Grouped in [collections](https://huggingface.co/JRamirez-UAB/collections) by GPU memory; EXL3 unless stated.
 
 | GPU memory | Models |
 |---|---|
